@@ -1,0 +1,1 @@
+protoc --proto_path=. --csharp_out=. --grpc_out=. --plugin=protoc-gen-grpc=..\packages\Grpc.Tools.2.59.0\tools\windows_x64\grpc_csharp_plugin.exe protos\greet.proto
